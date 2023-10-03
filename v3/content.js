@@ -70,7 +70,7 @@ document.body.addEventListener('drop', function (e) {
                     console.log(`Selected columns: ${JSON.stringify(selectedColumns)}`);
 
                     // Send selected columns to Google Sheets using fetch
-                    fetch("https://script.google.com/macros/s/AKfycbz2_TzE7XHxkP_SjQ7kLfPeCQN_Ytqb-lT-4lZMImjDSXIKSd65naPFEAHLUgnu9UD9/exec", {
+                    fetch("https://script.google.com/macros/s/<Add your own Script Id>lT-4lZMImjDSXIKSd65naPFEAHLUgnu9UD9/exec", {
                         method: 'POST',
                         mode: 'no-cors',
                         headers: {
