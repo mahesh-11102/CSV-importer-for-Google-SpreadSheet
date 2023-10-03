@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "CSV File Detector",
+    "version": "1.0",
+    "description": "Detects when a CSV file is dropped onto the Google Sheets homepage",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://docs.google.com/spreadsheets/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
