@@ -22,7 +22,7 @@
    
    <hr>
 
-## Version-II: adding more featrues tot he extension by saving the dropped CSv file
+## Version-II: adding more featrues to the extension by saving the dropped CSV file
 - To implement this I've used Google App Scripts to upadte/Add the new Spreadsheet.
 - The main issue which i've faced is to create a link between the google chrome extensiona and goole app script.
 - when user drops the file the app script gets triggered and start savinging the file into the google spreadsheet.
