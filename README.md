@@ -41,3 +41,13 @@
 ![file upload-3](https://github.com/StackItHQ/stackit-hiring-assignment-mahesh-11102/assets/77436328/75ffd8d5-d2ae-44ae-b744-71d5edafda52)
 
    </p>
+
+
+
+
+
+## Version-III: Import the columns Selected by the user
+- Allows the user to select the columns to be imported in to the google spreadsheet
+- Issue which i faced was to send the selected columns tot he Googl eApp Script and make the popup to display on drop
+
+https://github.com/mahesh-11102/CSV-importer-for-Google-SpreadSheet/assets/77436328/ddf0e987-e282-4fc5-aa29-6237cc3d4e15
